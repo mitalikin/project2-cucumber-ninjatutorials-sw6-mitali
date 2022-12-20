@@ -1,0 +1,421 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18120395300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can verify Product Arrange In Alphabetical Order",
+        "description": "",
+        "id": "desktop-page-test;user-can-verify-product-arrange-in-alphabetical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 1060125700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 951929100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageStep.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1596079100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select Currency in Pound",
+            "match": {
+              "location": "DesktopStep.iSelectCurrencyInPound()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5330933600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouseHoverOnDesktopsLinkAndClick",
+            "match": {
+              "location": "DesktopStep.iMouseHoverOnDesktopsLinkAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6418953700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select \"Show All Desktops\" from topmenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show All Desktops",
+                  "offset": 10
+                }
+              ],
+              "location": "DesktopStep.iSelectFromTopmenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461712800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Get all the products name and stored into array list",
+            "match": {
+              "location": "DesktopStep.getAllTheProductsNameAndStoredIntoArrayList()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6624629300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify Product Added To ShoppingCart SuccessFully",
+        "description": "",
+        "id": "desktop-page-test;verify-product-added-to-shoppingcart-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 4404290900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 435626500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageStep.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 863746000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I mouseHoverOnDesktopsLinkAndClick",
+            "match": {
+              "location": "DesktopStep.iMouseHoverOnDesktopsLinkAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2788925800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select \"Show All Desktops\" from topmenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show All Desktops",
+                  "offset": 10
+                }
+              ],
+              "location": "DesktopStep.iSelectFromTopmenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1203051200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select sort by \"Name (A - Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name (A - Z)",
+                  "offset": 16
+                }
+              ],
+              "location": "DesktopStep.selectSortBy(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2876865000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "selectProductByName \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 21
+                }
+              ],
+              "location": "DesktopStep.selectproductbyname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097604200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify text \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 13
+                }
+              ],
+              "location": "DesktopStep.verifyText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22704814500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select Delivery Date \"2022-11-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-11-30",
+                  "offset": 22
+                }
+              ],
+              "location": "DesktopStep.selectDeliveryDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381051900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter Qty \"1” using Select class.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 11
+                }
+              ],
+              "location": "DesktopStep.enterQtyUsingSelectClass(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225504300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on “Add to Cart” button",
+            "match": {
+              "location": "DesktopStep.clickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395838500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify the Message Product has been added",
+            "match": {
+              "location": "DesktopStep.verifyTheMessageProductHasBeenAdded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555416700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on link “shopping cart” display into success message",
+            "match": {
+              "location": "DesktopStep.clickOnLinkShoppingCartDisplayIntoSuccessMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174621700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify the text \"Shopping Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping Cart",
+                  "offset": 17
+                }
+              ],
+              "location": "DesktopStep.verifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100083700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify the Product name \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 25
+                }
+              ],
+              "location": "DesktopStep.verifyTheProductName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119560800,
+              "error_message": "org.junit.ComparisonFailure: Text not disply expected:\u003c[2022]-11-30\u003e but was:\u003c[Delivery Date: 2023]-11-30\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.ninjatutorials.steps.DesktopStep.verifyTheDeliveryDate(DesktopStep.java:109)\r\n\tat ✽.And Verify the Delivery Date \"2022-11-30\"(desktop.feature:26)\r\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "Verify the Delivery Date \"2022-11-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-11-30",
+                  "offset": 26
+                }
+              ],
+              "location": "DesktopStep.verifyTheDeliveryDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Verify the Model \"Product21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product21",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopStep.verifyTheModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Verify the Total \"£74.73\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£74.73",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopStep.verifyTheTotal(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Desktop page test",
+    "description": "As user I want to navigate to Desktop page on  Ninja Tutorials website",
+    "id": "desktop-page-test",
+    "keyword": "Feature",
+    "uri": "desktop.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Desktop"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
